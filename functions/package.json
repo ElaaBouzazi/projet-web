@@ -1,0 +1,20 @@
+{
+  "name": "functions",
+  "description": "Firebase Cloud Functions for Firestore export",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "deploy": "firebase deploy --only functions",
+    "serve": "firebase serve --only functions"
+  },
+  "dependencies": {
+    "firebase-functions": "^4.0.0",
+    "nodemailer": "^6.6.3",
+    "json2csv": "^5.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.5.0"
+  },
+  "engines": {
+    "node": "16"
+  }
+}

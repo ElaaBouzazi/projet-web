@@ -1,0 +1,98 @@
+/* src/styles.css */
+
+/* Palette de couleurs */
+:root {
+  --primary-color: #a79277; /* Couleur principale chaude */
+  --secondary-color: #d1bb9e; /* Couleur secondaire douce */
+  --background-color: #fff2e1; /* Fond clair chaleureux */
+  --light-color: #ead8c0; /* Couleur légère complémentaire */
+  --text-color: #5e4a3b; /* Texte brun pour un bon contraste */
+}
+
+/* Styles généraux */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+.navbar {
+  background-color: var(--light-color);
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.navbar-brand,
+.nav-link {
+  color: var(--primary-color) !important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar .btn {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar .btn:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Boutons */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  color: var(--light-color);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--text-color);
+}
+
+/* Formulaires */
+.form-control {
+  border: 1px solid var(--secondary-color);
+  background-color: var(--light-color);
+  color: var(--text-color);
+}
+
+.form-control:focus {
+  border-color: var(--primary-color);
+  box-shadow: 0 0 5px var(--primary-color);
+}
+
+/* Cards */
+.card {
+  background-color: var(--light-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.card-text {
+  color: var(--text-color);
+}
+
+/* Footer */
+footer {
+  background-color: var(--light-color);
+  color: var(--text-color);
+  padding: 15px 20px;
+  text-align: center;
+  border-top: 1px solid var(--secondary-color);
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}

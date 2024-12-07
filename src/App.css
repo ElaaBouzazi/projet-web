@@ -1,0 +1,83 @@
+/* src/App.css */
+body {
+  background-color: #fff2e1; /* Crème clair */
+  font-family: "Arial", sans-serif;
+  color: #a79277; /* Marron doux */
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: #a79277; /* Marron doux */
+}
+
+.container {
+  border-radius: 10px;
+  background-color: #ead8c0; /* Beige clair */
+  padding: 20px;
+}
+
+.form-control {
+  border-radius: 5px;
+  border: 1px solid #d1bb9e; /* Beige moyen */
+  background-color: #fff2e1; /* Crème clair */
+}
+
+button {
+  border-radius: 5px;
+  background-color: #a79277; /* Marron doux */
+  border-color: #a79277;
+  color: #fff2e1; /* Crème clair */
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #d1bb9e; /* Beige moyen */
+  border-color: #d1bb9e;
+}
+
+.navbar {
+  background-color: #fff2e1; /* Crème clair */
+}
+
+.nav-link {
+  color: #a79277 !important; /* Marron doux */
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ead8c0; /* Beige clair */
+}
+
+.card-title {
+  color: #a79277; /* Marron doux */
+}
+
+.card-text {
+  color: #d1bb9e; /* Beige moyen */
+}
+
+/* Ajout de styles supplémentaires */
+.card img {
+  border-bottom: 3px solid #d1bb9e; /* Ligne sous l'image pour plus de style */
+}
+
+footer {
+  background-color: #a79277; /* Marron doux */
+  color: #fff2e1; /* Crème clair */
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff2e1; /* Crème clair */
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #d1bb9e; /* Beige moyen */
+}

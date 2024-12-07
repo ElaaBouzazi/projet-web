@@ -1,0 +1,47 @@
+/* src/components/Footer.css */
+.footer {
+  background-color: #603f26; /* Fond du footer */
+  color: #ffeac5; /* Texte en couleur claire */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-links a {
+  color: #ffeac5; /* Couleur des liens */
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+  color: #ffdbb5; /* Changer la couleur au survol */
+}
+
+.footer-socials {
+  margin-top: 10px;
+}
+
+.footer-socials a {
+  color: #ffeac5; /* Couleur des liens sociaux */
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-socials a:hover {
+  color: #ffdbb5; /* Changer la couleur au survol des icônes sociales */
+}
+
+.footer-copy {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #ffdbb5; /* Couleur du texte des mentions légales */
+}

@@ -1,0 +1,6 @@
+firebase-admin
+flask
+flask-cors
+pandas
+matplotlib
+seaborn
